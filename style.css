@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body {
+    height: 100%;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #f0f0f0;
+    background-image: url(./images/kristian-seedorff-BvUicqkaZZ0-unsplash.jpg);
+    background-repeat:no-repeat ;
+    background-size: cover;
+  }
+  .container {
+   
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px #bebebe, -10px -10px 20px #ffff;
+    text-align: center;
+    width: 90%;
+    max-width: 450px;
+  }
+  h2 {
+    margin-bottom: 20px;
+    color: rgb(214, 151, 151);
+   
+  }
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  label {
+    font-size: 15px;
+    color: #bd9696;
+    margin-bottom: 5px;
+    display: block;
+  }
+  input {
+    width: 95%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 15px;
+    background-color: #e0e0e0;
+    box-shadow: inset 15px 15px 20px #bebebe, inset -15px -15px 20px #fff;
+    outline: none;
+    transition: 0.3s;
+  }
+  ::placeholder {
+    font-size: 12px;
+  }
+  .auth-buttons button {
+    margin-top: 15px;
+    width: 90%;
+    margin-left: 10px;
+    padding: 8px 12px;
+    font-size: 20px;
+    color: #fff;
+    background: #a71e1e67;
+    border: none;
+    border-radius: 110px;
+    box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #fff;
+  }
+  .auth-buttons button:hover {
+    box-shadow: inset 5px 5px 10px #bebebe, inset -5px -5px 10px #ffffff;
+  }
+  .password-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  .toggle-password {
+    background: none;
+    position: absolute;
+    right: 25px;
+    background-color: none;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  .error {
+    color: red;
+    font-size: 15px;
+    padding: 8px;
+    display: none;
+  }
+  .success {
+    color: rgb(249, 252, 249);
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
+  }
